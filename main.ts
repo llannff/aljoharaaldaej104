@@ -1,3 +1,3 @@
-basic.forever(function on_forever() {
-    
-})
+let item = 0
+let rain : game.LedSprite = null
+/**  */
