@@ -12,3 +12,10 @@ YourNAme - Your class name
              else: 
                  basic.show_string("Zero")
                  input.on_pin_pressed(TouchPin.P0, on_pin_presses_p0)
+                 #------------------------------------------
+                 def on_button_pressed_a():
+                     global item
+item += 1
+basic.show_number(item)
+input.on_button_pressed(Button.A, on_button_pressed_a)
+#-------------------------------------------
