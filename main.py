@@ -1,3 +1,3 @@
 item = 0
-    pass
+rain: game.LedSprite = None
 basic.forever(on_forever)
